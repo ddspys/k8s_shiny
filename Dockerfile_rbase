@@ -1,0 +1,24 @@
+# 기본 R 이미지 선택
+FROM r-base:latest
+
+# 필요한 시스템 라이브러리 설치
+RUN apt-get update && apt-get install -y \
+    libcurl4-openssl-dev \
+    libssl-dev \
+    libxml2-dev \
+    # 필요한 경우 추가적인 라이브러리 설치
+    # 예: libxt-dev, libx11-dev 등 \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# R에서 Shiny 패키지 설치
+RUN R -e "install.packages('shiny', repos='https://cloud.r-project.org/')"
+
+# 애플리케이션 복사
+COPY app.R /root/app.R
+
+# 기본 포트 노출
+EXPOSE 3838
+
+# 애플리케이션 실행 명령
+CMD ["R", "-e", "shiny::runApp('/root/app.R', port=3838, host='0.0.0.0')"]
