@@ -1,5 +1,5 @@
-# 기본 R 이미지 선택
-FROM r-base:latest
+# 특정 R 버전이 포함된 Rocker 기반 이미지 선택
+FROM rocker/r-ver:latest
 
 # 필요한 시스템 라이브러리 설치
 RUN apt-get update && apt-get install -y \
