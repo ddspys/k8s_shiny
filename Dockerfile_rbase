@@ -1,8 +1,8 @@
 # 특정 R 버전이 포함된 Rocker 기반 이미지 선택
 FROM rocker/r-ver:latest
 
-RUN R -e "install.packages(c('shiny'))"
-RUN R -e "remotes::install_github("Appsilon/shiny.telemetry", dependencies = TRUE)"
+RUN R -e "install.packages(c('shiny', 'remotes'))"
+RUN R -e "remotes::install_github('Appsilon/shiny.telemetry', dependencies = TRUE)"
 
 # 애플리케이션 복사
 COPY app.R /root/app.R
