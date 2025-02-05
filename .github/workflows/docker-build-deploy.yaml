@@ -26,14 +26,14 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.REGISTRY_SECRET }}
 
-    - name: Build and push Docker image with shiny server
-      uses: docker/build-push-action@v3
-      with:
-        context: .
-        file: ./Dockerfile
-        push: true
-        tags: |
-          ghcr.io/${{ github.repository_owner }}/my-shiny-app:latest
+    # - name: Build and push Docker image with shiny server
+    #   uses: docker/build-push-action@v3
+    #   with:
+    #     context: .
+    #     file: ./Dockerfile
+    #     push: true
+    #     tags: |
+    #       ghcr.io/${{ github.repository_owner }}/my-shiny-app:latest
 
     - name: Build and push Docker image with r-base
       uses: docker/build-push-action@v3
