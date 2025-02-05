@@ -2,7 +2,7 @@
 library(shiny)
 library(shiny.telemetry)
 
-data_storage <- DataStorageLogFile$new(log_file_path = "/var/log/shiny.log")
+data_storage <- DataStorageLogFile$new(log_file_path = "/var/log/shiny/shiny.log")
 telemetry <- Telemetry$new(data_storage = data_storage)
 
 # UI 설정
