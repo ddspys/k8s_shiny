@@ -1,0 +1,20 @@
+{"app_name":["(dashboard)"],"type":["login"],"session":["50cb71a8719b7e81c271193370245e36"],"details":["{\"username\":[\"anon_user_a5b057615f86be21b9bf5d1f0cacb1909d9a61f7eb2c4b2f4a3ccaef501cbdfc\"]}"],"time":[1738788531.4135]}
+{"app_name":["(dashboard)"],"type":["browser"],"session":["50cb71a8719b7e81c271193370245e36"],"details":["{\"value\":[\"Chrome 132\"]}"],"time":[1738788531.4555]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["50cb71a8719b7e81c271193370245e36"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788538.834]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["50cb71a8719b7e81c271193370245e36"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788539.6942]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["50cb71a8719b7e81c271193370245e36"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788540.3232]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["50cb71a8719b7e81c271193370245e36"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788540.8543]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["50cb71a8719b7e81c271193370245e36"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788541.3842]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["50cb71a8719b7e81c271193370245e36"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788560.8422]}
+{"app_name":["(dashboard)"],"type":["logout"],"session":["50cb71a8719b7e81c271193370245e36"],"details":["{\"username\":[\"anon_user_a5b057615f86be21b9bf5d1f0cacb1909d9a61f7eb2c4b2f4a3ccaef501cbdfc\"]}"],"time":[1738788564.6026]}
+{"app_name":["(dashboard)"],"type":["login"],"session":["1a91bbf7d66f41034f3a8902e0eff617"],"details":["{\"username\":[\"anon_user_41356be64984e96d3237385c32787a4cd3103f48f20a8647e77dd6b3ce281f60\"]}"],"time":[1738788593.3413]}
+{"app_name":["(dashboard)"],"type":["browser"],"session":["1a91bbf7d66f41034f3a8902e0eff617"],"details":["{\"value\":[\"Chrome 132\"]}"],"time":[1738788593.3907]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["1a91bbf7d66f41034f3a8902e0eff617"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788601.822]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["1a91bbf7d66f41034f3a8902e0eff617"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788602.6626]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["1a91bbf7d66f41034f3a8902e0eff617"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788603.2373]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["1a91bbf7d66f41034f3a8902e0eff617"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788603.9041]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["1a91bbf7d66f41034f3a8902e0eff617"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788605.0332]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["1a91bbf7d66f41034f3a8902e0eff617"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788605.1774]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["1a91bbf7d66f41034f3a8902e0eff617"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788605.3589]}
+{"app_name":["(dashboard)"],"type":["input"],"session":["1a91bbf7d66f41034f3a8902e0eff617"],"details":["{\"id\":[\"drawButton\"],\"value\":{}}"],"time":[1738788605.5079]}
+{"app_name":["(dashboard)"],"type":["logout"],"session":["1a91bbf7d66f41034f3a8902e0eff617"],"details":["{\"username\":[\"anon_user_41356be64984e96d3237385c32787a4cd3103f48f20a8647e77dd6b3ce281f60\"]}"],"time":[1738788620.773]}

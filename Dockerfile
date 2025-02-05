@@ -3,6 +3,7 @@ FROM rocker/shiny:latest
 
 # 필요한 R 패키지를 설치 (필요에 따라 추가 가능)
 RUN R -e "install.packages(c('shiny'))"
+RUN R -e "remotes::install_github("Appsilon/shiny.telemetry", dependencies = TRUE)"
 
 # 애플리케이션 코드와 데이터를 이미지에 복사
 COPY app.R /srv/shiny-server/

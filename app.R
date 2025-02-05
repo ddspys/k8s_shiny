@@ -1,8 +1,13 @@
 # 필수 라이브러리를 불러옵니다.
 library(shiny)
+library(shiny.telemetry)
+
+data_storage <- DataStorageLogFile$new(log_file_path = "/var/log/shiny.log")
+telemetry <- Telemetry$new(data_storage = data_storage)
 
 # UI 설정
 ui <- fluidPage(
+  use_telemetry(),
   titlePanel("Dynamic Histogram with Session Info"),
   sidebarLayout(
     sidebarPanel(
@@ -20,6 +25,7 @@ ui <- fluidPage(
 
 # 서버 로직
 server <- function(input, output, session) {
+  telemetry$start_session()
   
   observeEvent(input$drawButton, {  # 버튼 이벤트 감지
     # drawButton이 클릭될 때마다 새로운 히스토그램 데이터를 생성

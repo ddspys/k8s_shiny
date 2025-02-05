@@ -2,6 +2,7 @@
 FROM rocker/r-ver:latest
 
 RUN R -e "install.packages(c('shiny'))"
+RUN R -e "remotes::install_github("Appsilon/shiny.telemetry", dependencies = TRUE)"
 
 # 애플리케이션 복사
 COPY app.R /root/app.R
