@@ -2,6 +2,7 @@
 FROM rocker/r-ver:latest
 
 RUN R -e "install.packages(c('shiny', 'remotes'))"
+RUN apt-get install unixodbc unixodbc-dev
 RUN R -e "remotes::install_github('Appsilon/shiny.telemetry', dependencies = TRUE)"
 
 # 애플리케이션 복사
